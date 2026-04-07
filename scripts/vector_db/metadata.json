@@ -1,0 +1,658 @@
+[
+  {
+    "id": "file:bench.py",
+    "type": "file",
+    "name": "bench.py",
+    "path": "bench.py",
+    "document": "File: bench.py (python file at bench.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:docs/conf.py",
+    "type": "file",
+    "name": "conf.py",
+    "path": "docs/conf.py",
+    "document": "File: conf.py (python file at docs/conf.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:setup.py",
+    "type": "file",
+    "name": "setup.py",
+    "path": "setup.py",
+    "document": "File: setup.py (python file at setup.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:src/markupsafe/__init__.py",
+    "type": "file",
+    "name": "__init__.py",
+    "path": "src/markupsafe/__init__.py",
+    "document": "File: __init__.py (python file at src/markupsafe/__init__.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:src/markupsafe/_native.py",
+    "type": "file",
+    "name": "_native.py",
+    "path": "src/markupsafe/_native.py",
+    "document": "File: _native.py (python file at src/markupsafe/_native.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:src/markupsafe/_speedups.c",
+    "type": "file",
+    "name": "_speedups.c",
+    "path": "src/markupsafe/_speedups.c",
+    "document": "File: _speedups.c (c file at src/markupsafe/_speedups.c)",
+    "language": "c"
+  },
+  {
+    "id": "file:tests/conftest.py",
+    "type": "file",
+    "name": "conftest.py",
+    "path": "tests/conftest.py",
+    "document": "File: conftest.py (python file at tests/conftest.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:tests/test_escape.py",
+    "type": "file",
+    "name": "test_escape.py",
+    "path": "tests/test_escape.py",
+    "document": "File: test_escape.py (python file at tests/test_escape.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:tests/test_exception_custom_html.py",
+    "type": "file",
+    "name": "test_exception_custom_html.py",
+    "path": "tests/test_exception_custom_html.py",
+    "document": "File: test_exception_custom_html.py (python file at tests/test_exception_custom_html.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:tests/test_ext_init.py",
+    "type": "file",
+    "name": "test_ext_init.py",
+    "path": "tests/test_ext_init.py",
+    "document": "File: test_ext_init.py (python file at tests/test_ext_init.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:tests/test_leak.py",
+    "type": "file",
+    "name": "test_leak.py",
+    "path": "tests/test_leak.py",
+    "document": "File: test_leak.py (python file at tests/test_leak.py)",
+    "language": "python"
+  },
+  {
+    "id": "file:tests/test_markupsafe.py",
+    "type": "file",
+    "name": "test_markupsafe.py",
+    "path": "tests/test_markupsafe.py",
+    "document": "File: test_markupsafe.py (python file at tests/test_markupsafe.py)",
+    "language": "python"
+  },
+  {
+    "id": "class:setup.py:BuildFailed",
+    "type": "class",
+    "name": "BuildFailed",
+    "path": "setup.py",
+    "document": "Class: BuildFailed\nSignature: class BuildFailed(Exception):\nDescription: None"
+  },
+  {
+    "id": "class:setup.py:ve_build_ext",
+    "type": "class",
+    "name": "ve_build_ext",
+    "path": "setup.py",
+    "document": "Class: ve_build_ext\nSignature: class ve_build_ext(build_ext):\nDescription: None"
+  },
+  {
+    "id": "function:setup.py:run",
+    "type": "function",
+    "name": "run",
+    "path": "setup.py",
+    "document": "Function: run\nSignature: def run(self):\nDescription: None"
+  },
+  {
+    "id": "function:setup.py:build_extension",
+    "type": "function",
+    "name": "build_extension",
+    "path": "setup.py",
+    "document": "Function: build_extension\nSignature: def build_extension(self, ext):\nDescription: None"
+  },
+  {
+    "id": "function:setup.py:run_setup",
+    "type": "function",
+    "name": "run_setup",
+    "path": "setup.py",
+    "document": "Function: run_setup\nSignature: def run_setup(with_binary):\nDescription: None"
+  },
+  {
+    "id": "function:setup.py:show_message",
+    "type": "function",
+    "name": "show_message",
+    "path": "setup.py",
+    "document": "Function: show_message\nSignature: def show_message(*lines):\nDescription: None"
+  },
+  {
+    "id": "class:src/markupsafe/__init__.py:_HasHTML",
+    "type": "class",
+    "name": "_HasHTML",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Class: _HasHTML\nSignature: class _HasHTML(t.Protocol):\nDescription: None"
+  },
+  {
+    "id": "class:src/markupsafe/__init__.py:_TPEscape",
+    "type": "class",
+    "name": "_TPEscape",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Class: _TPEscape\nSignature: class _TPEscape(t.Protocol):\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:escape",
+    "type": "function",
+    "name": "escape",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: escape\nSignature: def escape(cls, s: t.Any, /) -> te.Self:\nDescription: Escape a string. Calls :func:`escape` and ensures that for subclasses the correct type is returned."
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:escape_silent",
+    "type": "function",
+    "name": "escape_silent",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: escape_silent\nSignature: def escape_silent(s: t.Any | None, /) -> Markup:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:soft_str",
+    "type": "function",
+    "name": "soft_str",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: soft_str\nSignature: def soft_str(s: t.Any, /) -> str:\nDescription: None"
+  },
+  {
+    "id": "class:src/markupsafe/__init__.py:Markup",
+    "type": "class",
+    "name": "Markup",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Class: Markup\nSignature: class Markup(str):\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:join",
+    "type": "function",
+    "name": "join",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: join\nSignature: def join(self, iterable: cabc.Iterable[str | _HasHTML], /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:split",
+    "type": "function",
+    "name": "split",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: split\nSignature: def split(  # type: ignore[override]\n        self, /, sep: str | None = None, maxsplit: t.SupportsIndex = -1\n    ) -> list[te.Self]:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:rsplit",
+    "type": "function",
+    "name": "rsplit",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: rsplit\nSignature: def rsplit(  # type: ignore[override]\n        self, /, sep: str | None = None, maxsplit: t.SupportsIndex = -1\n    ) -> list[te.Self]:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:splitlines",
+    "type": "function",
+    "name": "splitlines",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: splitlines\nSignature: def splitlines(  # type: ignore[override]\n        self, /, keepends: bool = False\n    ) -> list[te.Self]:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:unescape",
+    "type": "function",
+    "name": "unescape",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: unescape\nSignature: def unescape(self, /) -> str:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:striptags",
+    "type": "function",
+    "name": "striptags",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: striptags\nSignature: def striptags(self, /) -> str:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:capitalize",
+    "type": "function",
+    "name": "capitalize",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: capitalize\nSignature: def capitalize(self, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:title",
+    "type": "function",
+    "name": "title",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: title\nSignature: def title(self, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:lower",
+    "type": "function",
+    "name": "lower",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: lower\nSignature: def lower(self, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:upper",
+    "type": "function",
+    "name": "upper",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: upper\nSignature: def upper(self, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:replace",
+    "type": "function",
+    "name": "replace",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: replace\nSignature: def replace(self, old: str, new: str, count: t.SupportsIndex = -1, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:ljust",
+    "type": "function",
+    "name": "ljust",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: ljust\nSignature: def ljust(self, width: t.SupportsIndex, fillchar: str = \" \", /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:rjust",
+    "type": "function",
+    "name": "rjust",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: rjust\nSignature: def rjust(self, width: t.SupportsIndex, fillchar: str = \" \", /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:lstrip",
+    "type": "function",
+    "name": "lstrip",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: lstrip\nSignature: def lstrip(self, chars: str | None = None, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:rstrip",
+    "type": "function",
+    "name": "rstrip",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: rstrip\nSignature: def rstrip(self, chars: str | None = None, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:center",
+    "type": "function",
+    "name": "center",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: center\nSignature: def center(self, width: t.SupportsIndex, fillchar: str = \" \", /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:strip",
+    "type": "function",
+    "name": "strip",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: strip\nSignature: def strip(self, chars: str | None = None, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:translate",
+    "type": "function",
+    "name": "translate",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: translate\nSignature: def translate(\n        self,\n        table: cabc.Mapping[int, str | int | None],  # type: ignore[override]\n        /,\n    ) -> str:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:expandtabs",
+    "type": "function",
+    "name": "expandtabs",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: expandtabs\nSignature: def expandtabs(self, /, tabsize: t.SupportsIndex = 8) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:swapcase",
+    "type": "function",
+    "name": "swapcase",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: swapcase\nSignature: def swapcase(self, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:zfill",
+    "type": "function",
+    "name": "zfill",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: zfill\nSignature: def zfill(self, width: t.SupportsIndex, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:casefold",
+    "type": "function",
+    "name": "casefold",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: casefold\nSignature: def casefold(self, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:removeprefix",
+    "type": "function",
+    "name": "removeprefix",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: removeprefix\nSignature: def removeprefix(self, prefix: str, /) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:removesuffix",
+    "type": "function",
+    "name": "removesuffix",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: removesuffix\nSignature: def removesuffix(self, suffix: str) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:partition",
+    "type": "function",
+    "name": "partition",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: partition\nSignature: def partition(self, sep: str, /) -> tuple[te.Self, te.Self, te.Self]:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:rpartition",
+    "type": "function",
+    "name": "rpartition",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: rpartition\nSignature: def rpartition(self, sep: str, /) -> tuple[te.Self, te.Self, te.Self]:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:format",
+    "type": "function",
+    "name": "format",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: format\nSignature: def format(self, *args: t.Any, **kwargs: t.Any) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:format_map",
+    "type": "function",
+    "name": "format_map",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: format_map\nSignature: def format_map(\n        self,\n        mapping: cabc.Mapping[str, t.Any],  # type: ignore[override]\n        /,\n    ) -> te.Self:\nDescription: None"
+  },
+  {
+    "id": "class:src/markupsafe/__init__.py:EscapeFormatter",
+    "type": "class",
+    "name": "EscapeFormatter",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Class: EscapeFormatter\nSignature: class EscapeFormatter(string.Formatter):\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/__init__.py:format_field",
+    "type": "function",
+    "name": "format_field",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Function: format_field\nSignature: def format_field(self, value: t.Any, format_spec: str) -> str:\nDescription: None"
+  },
+  {
+    "id": "class:src/markupsafe/__init__.py:_MarkupEscapeHelper",
+    "type": "class",
+    "name": "_MarkupEscapeHelper",
+    "path": "src/markupsafe/__init__.py",
+    "document": "Class: _MarkupEscapeHelper\nSignature: class _MarkupEscapeHelper:\nDescription: None"
+  },
+  {
+    "id": "function:src/markupsafe/_native.py:_escape_inner",
+    "type": "function",
+    "name": "_escape_inner",
+    "path": "src/markupsafe/_native.py",
+    "document": "Function: _escape_inner\nSignature: def _escape_inner(s: str, /) -> str:\nDescription: None"
+  },
+  {
+    "id": "function:tests/conftest.py:pytest_report_header",
+    "type": "function",
+    "name": "pytest_report_header",
+    "path": "tests/conftest.py",
+    "document": "Function: pytest_report_header\nSignature: def pytest_report_header() -> list[str]:\nDescription: None"
+  },
+  {
+    "id": "function:tests/conftest.py:_mod",
+    "type": "function",
+    "name": "_mod",
+    "path": "tests/conftest.py",
+    "document": "Function: _mod\nSignature: def _mod(request: pytest.FixtureRequest) -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_escape.py:test_escape",
+    "type": "function",
+    "name": "test_escape",
+    "path": "tests/test_escape.py",
+    "document": "Function: test_escape\nSignature: def test_escape(value: str, expect: str) -> None:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_escape.py:Proxy",
+    "type": "class",
+    "name": "Proxy",
+    "path": "tests/test_escape.py",
+    "document": "Class: Proxy\nSignature: class Proxy:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_escape.py:test_proxy",
+    "type": "function",
+    "name": "test_proxy",
+    "path": "tests/test_escape.py",
+    "document": "Function: test_proxy\nSignature: def test_proxy() -> None:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_escape.py:ReferenceStr",
+    "type": "class",
+    "name": "ReferenceStr",
+    "path": "tests/test_escape.py",
+    "document": "Class: ReferenceStr\nSignature: class ReferenceStr(str):\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_escape.py:test_subclass",
+    "type": "function",
+    "name": "test_subclass",
+    "path": "tests/test_escape.py",
+    "document": "Function: test_subclass\nSignature: def test_subclass() -> None:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_exception_custom_html.py:CustomHtmlThatRaises",
+    "type": "class",
+    "name": "CustomHtmlThatRaises",
+    "path": "tests/test_exception_custom_html.py",
+    "document": "Class: CustomHtmlThatRaises\nSignature: class CustomHtmlThatRaises:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_exception_custom_html.py:test_exception_custom_html",
+    "type": "function",
+    "name": "test_exception_custom_html",
+    "path": "tests/test_exception_custom_html.py",
+    "document": "Function: test_exception_custom_html\nSignature: def test_exception_custom_html() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_ext_init.py:test_ext_init",
+    "type": "function",
+    "name": "test_ext_init",
+    "path": "tests/test_ext_init.py",
+    "document": "Function: test_ext_init\nSignature: def test_ext_init() -> None:\nDescription: Test that the extension module uses multi-phase init by checking that uncached imports result in different module objects."
+  },
+  {
+    "id": "function:tests/test_leak.py:test_markup_leaks",
+    "type": "function",
+    "name": "test_markup_leaks",
+    "path": "tests/test_leak.py",
+    "document": "Function: test_markup_leaks\nSignature: def test_markup_leaks() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_adding",
+    "type": "function",
+    "name": "test_adding",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_adding\nSignature: def test_adding() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_string_interpolation",
+    "type": "function",
+    "name": "test_string_interpolation",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_string_interpolation\nSignature: def test_string_interpolation(template: str, data: t.Any, expect: str) -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_type_behavior",
+    "type": "function",
+    "name": "test_type_behavior",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_type_behavior\nSignature: def test_type_behavior() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_html_interop",
+    "type": "function",
+    "name": "test_html_interop",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_html_interop\nSignature: def test_html_interop() -> None:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_markupsafe.py:Foo",
+    "type": "class",
+    "name": "Foo",
+    "path": "tests/test_markupsafe.py",
+    "document": "Class: Foo\nSignature: class Foo:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_missing_interpol",
+    "type": "function",
+    "name": "test_missing_interpol",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_missing_interpol\nSignature: def test_missing_interpol(args: t.Any) -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_tuple_interpol",
+    "type": "function",
+    "name": "test_tuple_interpol",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_tuple_interpol\nSignature: def test_tuple_interpol() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_dict_interpol",
+    "type": "function",
+    "name": "test_dict_interpol",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_dict_interpol\nSignature: def test_dict_interpol() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_escaping",
+    "type": "function",
+    "name": "test_escaping",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_escaping\nSignature: def test_escaping() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_unescape",
+    "type": "function",
+    "name": "test_unescape",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_unescape\nSignature: def test_unescape() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_format",
+    "type": "function",
+    "name": "test_format",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_format\nSignature: def test_format() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_format_map",
+    "type": "function",
+    "name": "test_format_map",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_format_map\nSignature: def test_format_map() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_formatting_empty",
+    "type": "function",
+    "name": "test_formatting_empty",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_formatting_empty\nSignature: def test_formatting_empty() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_custom_formatting",
+    "type": "function",
+    "name": "test_custom_formatting",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_custom_formatting\nSignature: def test_custom_formatting() -> None:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_markupsafe.py:HasHTMLOnly",
+    "type": "class",
+    "name": "HasHTMLOnly",
+    "path": "tests/test_markupsafe.py",
+    "document": "Class: HasHTMLOnly\nSignature: class HasHTMLOnly:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_markupsafe.py:HasHTMLAndFormat",
+    "type": "class",
+    "name": "HasHTMLAndFormat",
+    "path": "tests/test_markupsafe.py",
+    "document": "Class: HasHTMLAndFormat\nSignature: class HasHTMLAndFormat:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_complex_custom_formatting",
+    "type": "function",
+    "name": "test_complex_custom_formatting",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_complex_custom_formatting\nSignature: def test_complex_custom_formatting() -> None:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_markupsafe.py:User",
+    "type": "class",
+    "name": "User",
+    "path": "tests/test_markupsafe.py",
+    "document": "Class: User\nSignature: class User:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_formatting_with_objects",
+    "type": "function",
+    "name": "test_formatting_with_objects",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_formatting_with_objects\nSignature: def test_formatting_with_objects() -> None:\nDescription: None"
+  },
+  {
+    "id": "class:tests/test_markupsafe.py:Stringable",
+    "type": "class",
+    "name": "Stringable",
+    "path": "tests/test_markupsafe.py",
+    "document": "Class: Stringable\nSignature: class Stringable:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_escape_silent",
+    "type": "function",
+    "name": "test_escape_silent",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_escape_silent\nSignature: def test_escape_silent() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_splitting",
+    "type": "function",
+    "name": "test_splitting",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_splitting\nSignature: def test_splitting() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_mul",
+    "type": "function",
+    "name": "test_mul",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_mul\nSignature: def test_mul() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_escape_return_type",
+    "type": "function",
+    "name": "test_escape_return_type",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_escape_return_type\nSignature: def test_escape_return_type() -> None:\nDescription: None"
+  },
+  {
+    "id": "function:tests/test_markupsafe.py:test_soft_str",
+    "type": "function",
+    "name": "test_soft_str",
+    "path": "tests/test_markupsafe.py",
+    "document": "Function: test_soft_str\nSignature: def test_soft_str() -> None:\nDescription: None"
+  }
+]

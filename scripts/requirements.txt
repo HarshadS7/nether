@@ -1,0 +1,8 @@
+networkx
+chromadb
+sentence-transformers
+ollama
+gitpython
+python-dotenv
+tqdm
+colorama

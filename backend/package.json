@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "KA-CHOW: Autonomous Engineering Brain Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "architecture",
+    "knowledge-graph",
+    "ast",
+    "neo4j"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@babel/parser": "^7.23.9",
+    "@babel/traverse": "^7.23.9",
+    "@chroma-core/default-embed": "^0.1.9",
+    "@google/generative-ai": "^0.24.1",
+    "acorn": "^8.11.3",
+    "acorn-walk": "^8.3.2",
+    "axios": "^1.6.7",
+    "chromadb": "^1.10.5",
+    "chromadb-default-embed": "^2.14.0",
+    "cors": "^2.8.6",
+    "cron": "^4.4.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.0.1",
+    "glob": "^10.3.10",
+    "helmet": "^7.1.0",
+    "java-parser": "^2.0.4",
+    "mongoose": "^9.2.1",
+    "morgan": "^1.10.0",
+    "neo4j-driver": "^5.15.0",
+    "nodemon": "^3.1.14",
+    "winston": "^3.11.0"
+  }
+}

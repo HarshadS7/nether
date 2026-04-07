@@ -1,0 +1,2 @@
+This file is a log output placeholder.
+Run test_keys.py directly to validate API keys.

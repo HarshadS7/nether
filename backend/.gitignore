@@ -1,0 +1,33 @@
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Test coverage
+coverage/
+
+# Temp files
+*.tmp
+tmp/
+
+# Old backup files
+*.old.js
